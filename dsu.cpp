@@ -1,4 +1,4 @@
-const ll N=10;
+const ll N=1000;
 ll arr[N];
 ll sz[N];
 

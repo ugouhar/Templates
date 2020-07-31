@@ -17,27 +17,25 @@
 using namespace std;
 
 
-void solve()
-{
+void solve() {
 
 }
 
-int main()
-{
-	fastIO;
+int main() {
+    fastIO;
 
-	#ifndef ONLINE_JUDGE
-	freopen("input.txt","r",stdin);
-	#endif
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+#endif
 
-	ll t=1;
-	cin>>t;
-	while(t--)
-	solve();
+    ll t = 1;
+    cin >> t;
+    while(t--)
+        solve();
 
-	#ifndef ONLINE_JUDGE
-	cout<<endl<<"Time Elapsed: " << 1.0*clock() / CLOCKS_PER_SEC << " sec"<<endl;
-	#endif
+#ifndef ONLINE_JUDGE
+    cout << endl << "Time Elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " sec" << endl;
+#endif
 
-	return 0;
+    return 0;
 }
